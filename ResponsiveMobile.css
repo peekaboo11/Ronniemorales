@@ -1,0 +1,231 @@
+@media only screen and (max-width: 600px){
+#header{
+        background-image: url(images/MobileScreen.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+.container{
+    padding: 10px 3%;
+}
+
+.AboutCol1 h1{
+    text-align: center;
+    font-size: 20px;
+}
+.logo img {
+    height: 25px;
+    text-align: center;
+  }
+
+.HomeCol2 p{
+    font-size: 20px;
+    color: rgba(37, 235, 136, 0.651);
+}
+.HomeCol1{
+    text-align: center;
+    flex-basis: 100%;
+}
+.HomeCol2{
+    padding-top: 10px;
+    text-align: center;
+    flex-basis: 100%;
+}
+.HomeCol1 img{
+
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.HomeCol1 img:hover{
+    transform: scale(1.1);
+}
+
+#About{
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.AboutCol1{
+    flex-basis: 100%;
+    text-align: center;
+}
+.AboutCol2{
+    padding-top: 20px;
+    flex-basis:100%;
+    text-align: center;
+}
+.AboutCol2 img{
+        transition: transform 0.3s ease-in-out;
+        max-width: 100%;
+        height: 250px;
+        border-radius: 15px;
+        padding-top: 0px;
+        text-wrap: nowrap;
+}
+.AboutCol1 p{
+    font-size: 12px;
+    color: rgb(75, 235, 195);
+}
+.AboutCol1 h1{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(37, 235, 136, 0.651) ;
+}
+
+/*----------skills-----------*/
+
+#Skills{
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.content h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px ;
+    color: rgba(37, 235, 136, 0.651);
+}
+.content h3{
+    padding-left: 10px ;
+    text-align: left;
+    color: rgba(37, 235, 136, 0.651) ;
+}
+#icons img {
+    padding-top: 20px;
+    height: 100px;
+    transition: 0.3s ease-out;
+    margin: 10px;
+    position: relative;
+  }
+  #icons img::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  
+  #icons img:hover {
+    animation: iconAnimation 2s infinite;
+  }
+  
+  #icons img:hover::after {
+    height: 150px;
+  
+  }
+  
+.OthersCol1{
+    font-size: 14px;
+    flex-basis: 45%;
+    padding-left: 10%;
+    text-align: left;
+}
+.OthersCol2{
+    font-size: 14px;
+    flex-basis: 45%;
+    text-align: left;
+}
+.OthersCol1 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+.OthersCol2 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+/*---------PROJECT-----------*/
+
+#Projects{
+    margin: 0;
+    padding-top: 0;
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.ProjLeft img{
+    text-align: left;
+    height: 100px;
+    border-radius: 15px;
+}
+.ProjLeft{
+    flex-basis: 45%;
+}
+.ProjRight{
+    flex-basis: 45%;
+  
+}
+
+.ProjRight p{
+    margin-top: 35px;
+    text-align: left;
+    font-size: 18px;
+    color: rgba(37, 235, 136, 0.651);;
+}
+
+/*-------CONTACT-----*/
+
+#Contacts{
+    margin: 0;
+    padding-top: 0;
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.contactCol1{
+    
+    flex-basis: 100%;
+
+}
+.ContactCol2{
+    flex-basis: 100%;
+
+}
+.ContactTitle{
+    font-size: 18px;
+}
+.contactCol1 img{
+    
+    height: 20px;
+}
+.contactCol1 h1{
+    text-align: left;
+    padding: 0;
+    color: rgb(75, 235, 195);;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.contactCol1 p{
+    color: rgb(75, 235, 195);;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.Social-Icons{
+    margin-top: 35px;
+}
+
+
+form input, form textarea, form button{
+    width: 80%;
+    border : 0;
+    outline: none;
+    background: #262626;
+    color: rgb(75, 235, 195);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 6px;    
+}
+
+.Credits p{
+    text-align: center;
+    font-size: 8px;
+    background-color: #ababab;
+}
+
+
+}

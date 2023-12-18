@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Skills.css">
+    <link rel="stylesheet" href="Contacts.css">
+    <link rel="stylesheet" href="Projects.css">
+    <link rel="stylesheet" href="ResponsiveMobile.css">
+    <link rel="stylesheet" href="ResponsiveTablet.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="Script.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                <img src="images/logo.PNG" alt="Website logo">
+            </div>
+                <ul>
+                    <li><a href="#Homepage">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="Homepage">
+                <div class="container">
+                    <div class="row">
+                        <div class="HomeCol1">
+                            <img src="images/Home.png">
+                        </div>
+                        <div class="HomeCol2">
+                            <p id="homeMessage"></p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="AboutCol1">
+            <h1>About</h1>
+            <p>
+                Greetings! I'm a 20-year-old residing 
+                in Pasig City, currently in my second 
+                year pursuing a Bachelor's degree in 
+                Information Technology at Rizal 
+                Technological University. <br><br> A graduate 
+                of Information and Communication 
+                Technology (ICT) with a major in 
+                Computer Systems Servicing (CSS) from 
+                senior high school, I hold a National 
+                Certificate II (NC2) in CSS. Beyond my 
+                academic pursuits, I am fueled by a 
+                passion for technology, particularly 
+                in troubleshooting and resolving issues.<br><br> 
+                As a proactive learner, I've cultivated a 
+                hands-on approach to problem-solving, 
+                often diagnosing and fixing technical 
+                issues independently before resorting to 
+                professional assistance. This not only saves 
+                resources but also contributes to my continual 
+                
+            </p>
+            </div>
+            <div class="AboutCol2">
+                <img src="images/3.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Skills">
+    <div class="container">
+        <div class="content">
+        <h1>My Skills <br><br></h1>
+        <h3>Programming Languages: </h3>
+        
+        </div>
+        <div id="icons">
+            <img src="images/icons/SQL.png" alt="SQL">
+            <img src="images/icons/CPP.png" alt="C++">
+            <img src="images/icons/CSS.png" alt="CSS">
+            <img src="images/icons/HTML.png" alt="HTML">
+            <img src="images/icons/JAVA(1).png" alt="Java">
+            <img src="images/icons/JS.png" alt="JavaScript">
+        </div>
+
+        <div class="others">
+            <h3>others:</h3>
+        </div>
+
+
+        <div class="TextBox">
+            <div class="row">
+                <div class="OthersCol1">
+                    <ul>
+                   <li><p>Hardware Maintenance</p></li>
+                   <li><p>Software Installation and <br>Configuration</p></li>
+                    </ul>
+                </div>
+                <div class="OthersCol2"> 
+                <ul>
+                
+                    <li><p>Troubleshooting</p></li>
+                    <li><p>Basic IT Support</p></li>
+                </ul>
+            </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<div id="Projects">
+    <div class="container">
+        <div class="row">
+            <div class="ProjLeft">
+                <img src="images/icons/Computer.jpg">
+            </div>
+            <div class="ProjRight">
+                <p id="ProjectMessage"></p>
+            </div>
+        </div>
+     
+            
+             
+        
+    </div>
+
+
+
+
+
+<div id="Contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contactCol1">
+                <h1 class="ContactTitle">Contact Me</h1>
+                <p><img src="images/icons/email.png"> ronniemorales654@gmail.com</p>
+                <p><img src="images/icons/phone.png"> 09623879597</p>
+                <div class="Social-Icons">
+                   <a href="https://web.facebook.com/ronnie.morales.3114/"><img src="images/icons/fb.png" alt=""></a>
+                   <a href="https://m.me/ronnie.morales.3114/"><img src="images/icons/messenger.png" alt=""></a>
+                   <a href="https://www.instagram.com/___hakdogggg/"><img src="images/icons/ig.png" alt=""></a>
+                </div>
+                <a href="images/icons/files/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="ContactCol2">
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Credits">
+    <p>All rights reserved. | Designed by Ronnie Morales Jr.</p>
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQznGmW1pR0YSGX51C0Ql9WimNvBW8sQPXcTqvtvYHPLIQRpAx2ITD66P_OAaAYE6n/exec'
+
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+</body>
+</html>

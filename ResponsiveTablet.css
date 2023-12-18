@@ -1,0 +1,233 @@
+@media only screen and (max-width: 1024px){
+#header{
+        padding: 10px 5%;
+        background-image: url(images/MobileScreen.jpg);
+        background-size: cover;
+        text-align: center;
+    }
+.container{
+    padding: 10px 3%;
+}
+
+
+.logo img {
+    height: 25px;
+    text-align: center;
+  }
+
+.HomeCol2 p{
+    padding-top: 80px;
+    font-size: 60px;
+    color: rgba(37, 235, 136, 0.651);
+}
+.HomeCol1{
+    padding: 10px;
+    text-align: right;
+    flex-basis: 45%;
+}
+.HomeCol2{
+    padding: 10px;
+    text-align: left;
+    flex-basis: 45%;
+}
+.HomeCol1 img{
+
+    max-width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.HomeCol1 img:hover{
+    transform: scale(1.1);
+}
+/*---------about-------------*/
+
+#About{
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.AboutCol1{
+    padding-left: 30px;
+    flex-basis: 45%;
+    text-align: center;
+}
+.AboutCol2{
+    padding-top: 20px;
+    flex-basis:45%;
+    text-align: center;
+}
+.AboutCol2 img{
+        transition: transform 0.3s ease-in-out;
+        max-width: 100%;
+        height: 500px;
+        border-radius: 15px;
+        padding-top: 60px;
+       
+}
+.AboutCol1 p{
+    font-size: 18px;
+    color: rgb(75, 235, 195);
+}
+.AboutCol1 h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgba(37, 235, 136, 0.651) ;
+}
+
+/*----------skills-----------*/
+
+#Skills{
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.content h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px ;
+    color: rgba(37, 235, 136, 0.651);
+}
+.content h3{
+    padding-left: 30px ;
+    text-align: left;
+    color: rgba(37, 235, 136, 0.651) ;
+}
+#icons img {
+    padding-top: 20px;
+    height: 150px;
+    transition: 0.3s ease-out;
+    margin: 10px;
+    position: relative;
+  }
+  #icons img::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  
+  #icons img:hover {
+    animation: iconAnimation 2s infinite;
+  }
+  
+  #icons img:hover::after {
+    height: 150px;
+  
+  }
+  
+.OthersCol1{
+    font-size: 25px;
+    flex-basis: 45%;
+    padding-left: 10%;
+    text-align: left;
+}
+.OthersCol2{
+    font-size: 25px;
+    flex-basis: 45%;
+    text-align: left;
+}
+.OthersCol1 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+.OthersCol2 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+/*---------PROJECT-----------*/
+
+#Projects{
+    margin: 0;
+    padding-top: 0;
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+   
+}
+.ProjLeft img{
+    text-align: center;
+    height: 250px;
+    border-radius: 15px;
+}
+.ProjLeft{
+    padding: 5%;
+    flex-basis: 45%;
+}
+.ProjRight{
+    flex-basis: 45%;
+  
+}
+
+.ProjRight p{
+    margin-top: 80px;
+    text-align: left;
+    font-size: 40px;
+    color: rgba(37, 235, 136, 0.651);;
+}
+/*-------CONTACT-----*/
+
+#Contacts{
+    margin: 0;
+    padding-top: 0;
+    background-image: url(images/MobileScreen.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.contactCol1{
+    
+    flex-basis: 35%;
+
+}
+.ContactCol2{
+    flex-basis: 60%;
+
+}
+.ContactTitle{
+    font-size: px;
+}
+.contactCol1 img{
+    
+    height: 25px;
+}
+.contactCol1 h1{
+    text-align: left;
+    padding: 0;
+    color: rgb(75, 235, 195);;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.contactCol1 p{
+    color: rgb(75, 235, 195);;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.Social-Icons{
+    margin-top: 35px;
+}
+
+
+form input, form textarea, form button{
+    width: 80%;
+    border : 0;
+    outline: none;
+    background: #262626;
+    color: rgb(75, 235, 195);
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 6px;    
+}
+
+.Credits p{
+    text-align: center;
+    font-size: 8px;
+    background-color: #ababab;
+}
+
+
+}

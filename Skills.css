@@ -1,0 +1,95 @@
+#Skills{
+    background-image:url(/images/43543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 60px ;
+    color: rgba(37, 235, 136, 0.651);
+}
+
+.content h3{
+    padding-left: 20px ;
+    text-align: left;
+    color: rgba(37, 235, 136, 0.651) ;
+}
+
+.others h3 {
+    padding-left: 20px ;
+    text-align: left;
+     padding-top: 50px;
+     color: rgba(37, 235, 136, 0.651) ;
+}
+.TextBox{
+    font-size: 30px;
+    padding-top: 40px;
+    text-align: center;
+}
+.OthersCol1{
+    flex-basis: 45%;
+    padding-left: 15%;
+    text-align: left;
+}
+.OthersCol2{
+    flex-basis: 45%;
+    text-align: left;
+}
+.OthersCol1 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+.OthersCol2 ul{
+  list-style:circle;
+  color: rgb(75, 235, 195);
+}
+
+
+@keyframes iconAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#icons img {
+  padding-top: 60px;
+  height: 200px;
+  transition: 0.3s ease-out;
+  margin: 10px;
+  position: relative;
+}
+
+#icons img::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+#icons img:hover {
+  animation: iconAnimation 2s infinite;
+}
+
+#icons img:hover::after {
+  height: 150px;
+
+}
+
+
+
+

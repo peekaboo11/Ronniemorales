@@ -1,0 +1,28 @@
+#Projects{
+    background-image:url(/images/43543.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjLeft img{
+    text-align: left;
+    height: 400px;
+    border-radius: 15px;
+}
+.ProjLeft{
+    flex-basis: 45%;
+}
+.ProjRight{
+    flex-basis: 45%;
+  
+}
+
+.ProjRight p{
+    margin-top: 80px;
+    text-align: left;
+    font-size: 50px;
+    color: rgba(37, 235, 136, 0.651);;
+}
